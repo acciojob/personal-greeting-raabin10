@@ -17,7 +17,6 @@ const App = () => {
       </p>
       <input
         type="text"
-        placeholder="Enter your name"
         value={name}
         onChange={handleNameChange}
       />
