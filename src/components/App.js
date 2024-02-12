@@ -13,9 +13,7 @@ const App = () => {
   return (
     
     <div>
-      <p>
-        Enter your name:
-      </p>
+    
       <form>
 
       <input
