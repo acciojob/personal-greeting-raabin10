@@ -11,10 +11,11 @@ const App = () => {
   };
 
   return (
-    <div>
-      <p>
+    <p>
         Enter your name :
       </p>
+    <div>
+      
       <input
         type="text"
         value={name}
