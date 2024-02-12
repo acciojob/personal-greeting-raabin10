@@ -11,17 +11,21 @@ const App = () => {
   };
 
   return (
-    <p>
-        Enter your name :
-      </p>
+    
     <div>
-      
+      <p>
+        Enter your name:
+      </p>
+      <form>
+
       <input
         type="text"
         value={name}
         onChange={handleNameChange}
       />
       {name && <p>Hello {name}!</p>}
+      </form>
+
     </div>
   );
 };
